@@ -1,4 +1,4 @@
-let a = 9;
+let a = 12;
 
 if( a % 2 == 0){
     console.log("Es un número par");

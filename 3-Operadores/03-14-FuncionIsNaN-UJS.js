@@ -1,6 +1,6 @@
 let miNumero = "17";
 
-let edad = Number(miNumero); 
+let edad = Number(miNumero);
 console.log( edad );
 
 if( isNaN(edad)){
@@ -12,7 +12,7 @@ else{
     }
     else{
         console.log("Muy joven para votar");
-    }    
+    }
 }
 
 if( isNaN(edad)){
@@ -20,5 +20,5 @@ if( isNaN(edad)){
 }
 else{
     let resultado = (edad >= 18)? "Puede votar" : "Muy joven para votar";
-    console.log( resultado ); 
+    console.log( resultado );
 }
